@@ -11064,6 +11064,24 @@ code, .code {
   .v-btm-l {
     vertical-align: bottom; } }
 
+input, textarea, select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0.1rem solid #5b616b;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #212121;
+  display: block;
+  font-size: 1.7rem;
+  height: 3.8rem;
+  line-height: 1.3;
+  margin: 0.2em 0;
+  max-width: 46rem;
+  padding: 1rem 0.7em;
+  width: 100%; }
+
 .usa-section-dark h1,
 .usa-section-dark h2,
 .usa-section-dark h3,
@@ -11084,6 +11102,9 @@ code, .code {
 .bgdgreen {
   background-color: #247a2a; }
 
+.bgwhite {
+  background-color: #fff; }
+
 .usa-footer-secondary_section {
   background-color: #fff; }
 
@@ -11094,15 +11115,23 @@ input, textarea, select {
   color: #212121; }
 
 .bglogo {
-  background: #30a137 url(/img/mm/mmlogo-sm.png) bottom right no-repeat; }
+  background: #30a137 url(/img/mm/mmlogo-blk-sm.png) bottom right no-repeat; }
 
 .bglogo-full {
-  background: #30a137 url(/img/mm/mmlogo-full.png) bottom right no-repeat; }
+  background: #30a137 url(/img/mm/mmlogo-full-blk.png) bottom right no-repeat; }
+
+.usa-banner-content {
+  padding-bottom: 1rem;
+  padding-top: 1rem; }
+
+.usa-header-extended .usa-logo {
+  margin-top: 1rem;
+  margin-bottom: 0rem; }
 
 .usa-nav-secondary {
   position: absolute;
   right: 3rem;
-  top: -9.5rem; }
+  top: -6.5rem; }
 
 .usa-hero {
   background-image: none; }
